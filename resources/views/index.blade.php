@@ -44,7 +44,7 @@
                                 class="btn btn-primary"
                                 role="button"
                                 onclick="getRequestThreeSecs();">
-                            <span style="padding: 0 10px">GET Request</span>
+                            <span style="padding: 0 10px">Click me to call API</span>
                             <span class="fa fa-spinner fa-spin" style="display: none; font-size:18px"></span>
                         </button>
                     </div>
