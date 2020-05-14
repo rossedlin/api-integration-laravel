@@ -4,6 +4,9 @@
  * User: Ross Edlin
  * Date: 2020-05-13
  * Time: 13:18
+ *
+ * @var string $cssVersion
+ * @var string $jsVersion
  */
 ?>
 
@@ -15,14 +18,16 @@
 
     <title><?= config('app.name') ?></title>
 
-    <link href="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/css/app.css", config('app.version')); ?>" rel="stylesheet">
-    <script src="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/js/app.js", config('app.version')); ?>"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <link href="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/css/app.css", $cssVersion); ?>" rel="stylesheet">
+    <script src="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/js/app.js", $jsVersion); ?>"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-    <!-- Stripe v3 -->
-    <script src="https://js.stripe.com/v3/"></script>
 
     <!-- Styles -->
     <style>
