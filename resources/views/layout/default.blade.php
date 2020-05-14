@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Stripe</title>
+    <title><?= config('app.name') ?></title>
 
     <link href="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/css/app.css", config('app.version')); ?>" rel="stylesheet">
     <script src="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/js/app.js", config('app.version')); ?>"></script>

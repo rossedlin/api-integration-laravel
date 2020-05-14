@@ -68,12 +68,14 @@
                     <label class="g-color-gray-dark-v2 g-font-size-13">Api Integration Result</label>
                     <textarea id="api-integration-result"
                               class="form-control"
-                              rows="12" placeholder="A dump for the api integration result"></textarea>
+                              rows="6" placeholder="A dump for the api integration result"></textarea>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Web Scraping Form -->
+
+    <div id="results-table" class="col-sm-12 mt-5"></div>
 
     <script>
 
@@ -121,11 +123,14 @@
                 url:    $('#api-integration-url').val(),
                 _token: '<?= csrf_token(); ?>'
             })
-             .done(function (data, textStatus, jqXHR) {
+             .done(function (jsonString, textStatus, jqXHR) {
 
-                 $('#api-integration-result').val(data);
+                 var jsonObj = $.parseJSON(jsonString);
+
+                 $('#api-integration-result').val(jsonString);
                  $('#api-integration-button').find('.fa-spinner').hide();
                  $('#api-integration-info').html('Done!');
+                 $('#results-table').html(jsonObj['html']);
 
              })
              .fail(function (jqXHR, textStatus, errorThrown) {

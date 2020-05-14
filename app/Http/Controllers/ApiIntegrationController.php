@@ -49,7 +49,13 @@ class ApiIntegrationController extends Controller
             if ($validator->isValid()) {
                 $obj = json_decode($response->getBody());
 
-                return json_encode($obj, JSON_PRETTY_PRINT);
+                return json_encode([
+                    'success' => true,
+                    'raw'     => $obj,
+                    'html'    => view('table', [
+                        'obj' => $obj,
+                    ])->render(),
+                ], JSON_PRETTY_PRINT);
             } else {
                 return json_encode(
                     [
