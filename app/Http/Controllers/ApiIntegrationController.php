@@ -21,13 +21,17 @@ class ApiIntegrationController extends Controller
      */
     public function __invoke()
     {
-        return view('index');
+        return view('index', [
+            'cssVersion' => md5(file_get_contents(__DIR__ . '/../../../public/css/app.css')),
+            'jsVersion'  => md5(file_get_contents(__DIR__ . '/../../../public/js/app.js')),
+        ]);
     }
 
     /**
      * @param Request $request
      *
      * @return false|string
+     * @throws \Throwable
      */
     public function apiGetRequest(Request $request)
     {
