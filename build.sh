@@ -4,7 +4,7 @@
 # Composer
 #
 sudo rm -R vendor
-docker run -v $PWD:/var/www -vstripe_demo_composer:/root/.composer rossedlin/centos-apache-php:7.1-dev composer install
+docker run -v $PWD:/var/www -vapi_integration_demo_composer:/root/.composer rossedlin/centos-apache-php:7.1-dev composer install
 
 #
 # NPM
