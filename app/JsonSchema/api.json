@@ -10,8 +10,7 @@
     "per_page",
     "total",
     "total_pages",
-    "data",
-    "ad"
+    "data"
   ],
   "additionalProperties": true,
   "properties": {

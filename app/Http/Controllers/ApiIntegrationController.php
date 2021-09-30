@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
+use Throwable;
 
 /**
  * Created by PhpStorm.
@@ -17,7 +20,7 @@ use Illuminate\Http\Request;
 class ApiIntegrationController extends Controller
 {
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function __invoke()
     {
@@ -31,7 +34,7 @@ class ApiIntegrationController extends Controller
      * @param Request $request
      *
      * @return false|string
-     * @throws \Throwable
+     * @throws Throwable
      */
     public function apiGetRequest(Request $request)
     {
