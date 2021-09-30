@@ -120,7 +120,7 @@
             $('#api-integration-result').val('');
             $('#api-integration-button').find('.fa-spinner').show();
 
-            $.post('<?= url('api/api-integration/get-request') ?>', {
+            $.post('/api/api-integration/get-request', {
                 url:    $('#api-integration-url').val(),
                 _token: '<?= csrf_token(); ?>'
             })
