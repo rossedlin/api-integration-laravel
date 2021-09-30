@@ -45,9 +45,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
 
-    <link href="/css/app.css"
-          rel="stylesheet">
-    <script src="/css/app.js"></script>
+    <link href="/css/app.css" rel="stylesheet">
+    <script src="/js/app.js"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
