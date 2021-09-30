@@ -45,9 +45,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
 
-    <link href="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/css/app.css", $cssVersion); ?>"
+    <link href="/css/app.css"
           rel="stylesheet">
-    <script src="<?= config('app.url') . \Edlin\Core\Utils::addVersionToFile("/js/app.js", $jsVersion); ?>"></script>
+    <script src="/css/app.js"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
