@@ -5,7 +5,7 @@
     <div class="col-sm-12 mb-5">
         <h1 class="text-uppercase g-color-main-light-v1 g-font-weight-600 g-letter-spacing-2 mb-4"
             style="font-size: 32px;">
-            Api Integration
+            Api Integration!
         </h1>
         <p class="g-font-size-16">
             Hey, I'm an API Integration Demo.<br />

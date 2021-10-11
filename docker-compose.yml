@@ -1,7 +1,9 @@
 version: '3.3'
 
 services:
-   web:
-     image: api-integration-demo
-     ports:
-       - "80:80"
+  web:
+    image: rossedlin/php-apache:7.4
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www
