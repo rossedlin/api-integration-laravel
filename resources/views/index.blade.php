@@ -8,7 +8,7 @@
             Api Integration
         </h1>
         <p class="g-font-size-16">
-            Hey, I'm an API Integration Demo.<br />
+            Hey, I'm an API Integration.<br />
             I can connect with an API, pull information and show you it.<br/>
             Try me and see what happens. If you like it and want it on your site,
             <a href="https://www.rossedlin.com/hire/" target="_blank"> contact / hire me here.</a>

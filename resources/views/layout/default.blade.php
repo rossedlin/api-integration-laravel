@@ -14,7 +14,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- Title -->
-    <title>API Integration Demo | A Portfolio Demonstration Piece by Ross Edlin</title>
+    <title>API Integration Laravel | A Portfolio Demonstration Piece by Ross Edlin</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -25,12 +25,12 @@
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <meta name="description" content="API Integration Demo | A Portfolio Demonstration Piece by Ross Edlin." />
+    <meta name="description" content="API Integration Laravel | A Portfolio Demonstration Piece by Ross Edlin." />
 
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="API Integration Demo | A Portfolio Demonstration Piece by Ross Edlin" />
-    <meta property="og:description" content="API Integration Demo | A Portfolio Demonstration Piece by Ross Edlin." />
+    <meta property="og:title" content="API Integration Laravel | A Portfolio Demonstration Piece by Ross Edlin" />
+    <meta property="og:description" content="API Integration Laravel | A Portfolio Demonstration Piece by Ross Edlin." />
     <meta property="og:url" content="https://www.rossedlin.com/portfolio-sites/api-integration-demo/" />
     <meta property="og:site_name" content="Ross Edlin" />
 
