@@ -3,17 +3,17 @@
 @section('content')
     <!-- Heading -->
     <div class="col-sm-12 mb-5">
-        <h1 class="text-uppercase g-color-main-light-v1 g-font-weight-600 g-letter-spacing-2 mb-4"
-            style="font-size: 32px;">
+        <h1 class="text-uppercase font-weight-bold mb-4"
+            style="font-size: 42px;">
             Api Integration
         </h1>
-        <p class="g-font-size-16">
+        <p style="font-size: 22px;">
             Hey, I'm an API Integration.<br />
             I can connect with an API, pull information and show you it.<br/>
             Try me and see what happens. If you like it and want it on your site,
             <a href="https://www.rossedlin.com/contact/" target="_blank"> contact / hire me here.</a>
         </p>
-        <p class="g-font-size-16">
+        <p style="font-size: 22px;">
             I'm making use of
             <a href="https://laravel.com/" target="_blank">Laravel</a> as a backend framework,
             <a href="https://packagist.org/packages/guzzlehttp/guzzle" target="_blank">Guzzle</a> for the API request and
@@ -25,7 +25,7 @@
     <hr/>
 
     <!-- Web Scraping Form -->
-    <div class="col-sm-12 mt-5">
+    <div class="col-sm-12 mt-5" style="font-size: 22px;">
         <div class="row">
             <div class="col-md-5">
                 <div class="row">
