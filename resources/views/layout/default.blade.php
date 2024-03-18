@@ -1,16 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Ross Edlin
- * Date: 2020-05-13
- * Time: 13:18
- *
- * @var string $cssVersion
- * @var string $jsVersion
- */
-?>
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- Title -->
@@ -20,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="canonical" href="https://www.rossedlin.com/portfolio-sites/api-integration-demo/" />
+    <link rel="canonical" href="https://api-intergration-laravel.edlin.app/"/>
 
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -31,21 +19,24 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="API Integration Laravel | A Portfolio Demonstration Piece by Ross Edlin" />
     <meta property="og:description" content="API Integration Laravel | A Portfolio Demonstration Piece by Ross Edlin." />
-    <meta property="og:url" content="https://www.rossedlin.com/portfolio-sites/api-integration-demo/" />
+    <meta property="og:url" content="https://api-intergration-laravel.edlin.app/" />
     <meta property="og:site_name" content="Ross Edlin" />
 
     <meta property="article:modified_time" content="2020-05-27T07:12:00+00:00" />
-    <meta property="og:image" content="https://www.rossedlin.com/wp-content/uploads/2020/05/api-integration-450x200-1.jpg" />
+    <meta property="og:image" content="" />
     <meta property="og:image:width" content="450" />
     <meta property="og:image:height" content="200" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="icon" href="https://assets.edlin.app/favicon/favicon.ico"/>
 
-    <link href="https://assets.edlin.app/css/bootstrap/v4.6/bootstrap.css" rel="stylesheet">
-    <script src="https://assets.edlin.app/js/bootstrap/v4.6/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://assets.edlin.app/bootstrap/v4.6/bootstrap.css">
 
-    <link href="https://assets.edlin.app/css/font-awesome/v5.13/font-awesome.css" rel="stylesheet">
+    <script src="https://assets.edlin.app/jquery/v3.5.1/jquery.js"></script>
+    <script src="https://assets.edlin.app/popper/v1.16.1/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://assets.edlin.app/bootstrap/v4.6/bootstrap.min.js" integrity="sha384-y8D4caEr7nE9D1BS7y+5VzB/NI8fwXvZ+Q8r9MDv8eBNF3N+ed74/4o3FClFDuB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://assets.edlin.app/fontawesome/v5.15.4/css/all.css" integrity="sha384-7rgjkhkxJ95zOzIjk97UrBOe14KgYpH9+zQm5BdgzjQELBU6kHf4WwoQzHfTx5sw" crossorigin="anonymous">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -82,11 +73,13 @@
 
         <div class="col-sm-12 mt-5 mb-5">
             <div class="links">
-                <a href="https://www.rossedlin.com/" target="_blank">Home</a>
-                <a href="https://www.rossedlin.com/portfolio/" target="_blank">Portfolio</a>
-                <a href="https://www.rossedlin.com/contact" target="_blank">Contact</a>
-                <a href="https://www.rossedlin.com/linkedin" target="_blank">LinkedIn</a>
-                <a href="https://www.rossedlin.com/portfolio/api-integration-laravel/code" target="_blank">BitBucket (Source Code)</a>
+                <a href="https://edlin.xyz/" target="_blank">Home</a>
+                <a href="https://edlin.xyz/portfolio" target="_blank">Portfolio</a>
+                <a href="https://edlin.xyz/contact" target="_blank">Contact</a>
+                <a href="https://edlin.xyz/linkedin" target="_blank">LinkedIn</a>
+                <a href="https://edlin.xyz/github/api-integration-laravel" target="_blank">
+                    GitHub (Source Code)
+                </a>
             </div>
         </div>
 

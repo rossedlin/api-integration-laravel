@@ -133,9 +133,6 @@
                  $('#api-integration-info').html('Done!');
                  $('#results-table').html(jsonObj['html']);
 
-             })
-             .fail(function (jqXHR, textStatus, errorThrown) {
-
              });
         }
 
