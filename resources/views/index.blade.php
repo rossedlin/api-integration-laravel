@@ -11,7 +11,7 @@
             Hey, I'm an API Integration.<br />
             I can connect with an API, pull information and show you it.<br/>
             Try me and see what happens. If you like it and want it on your site,
-            <a href="https://www.rossedlin.com/contact/" target="_blank"> contact / hire me here.</a>
+            <a href="https://edlin.xyz/contact/" target="_blank"> contact / hire me here.</a>
         </p>
         <p style="font-size: 22px;">
             I'm making use of

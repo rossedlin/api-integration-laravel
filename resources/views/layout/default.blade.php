@@ -68,7 +68,7 @@
     </style>
 </head>
 <body>
-<div class="container mt-5">
+<div class="container">
     <div class="row text-center">
 
         <div class="col-sm-12 mt-5 mb-5">
@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12 mt-5 mb-5">
+        <div class="col-sm-12 mb-5">
             <div class="row text-center">
                 @yield('content')
             </div>
